@@ -2,6 +2,7 @@
   "name": "todo-win-hackathon",
   "description": "// TODO: win! - Hackathon Project",
   "version": "1.0.0",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robmarch1/todo-win-hackathon.git"
