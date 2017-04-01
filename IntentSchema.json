@@ -10,10 +10,22 @@
       "intent": "AMAZON.NoIntent"
     },
     {
+      "intent": "AmazonAccountPayMethod"
+    },
+    {
       "intent": "VisaPayMethod"
     },
     {
       "intent": "PayPalPayMethod"
+    },
+    {
+      "intent": "IPhone"
+    },
+    {
+      "intent": "Samsung"
+    },
+    {
+      "intent": "Unhandled"
     }
   ]
 }

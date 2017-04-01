@@ -1,11 +1,18 @@
-AMAZON.StartOverIntent restart
-AMAZON.StartOverIntent back to the beginning
+AmazonAccountPayMethod Amazon
+AmazonAccountPayMethod Amazon account
 VisaPayMethod visa
-VisaPayMethod visa debit
-VisaPayMethod visa credit
-VisaPayMethod visa card
-VisaPayMethod pay by visa
 VisaPayMethod I want to pay by visa
 PayPalPayMethod PayPal
 PayPalPayMethod pay by PayPal
 PayPalPayMethod I want to pay by PayPal
+IPhone Apple
+IPhone Apple I Phone
+IPhone I Phone
+IPhone I Phone seven
+Samsung Samsung
+Samsung Samsung Phone
+Unhandled a
+Unhandled ssdfsfd
+Unhandled bfhghb bghfkjhb bbh
+Unhandled fgfg fgfghf fghfghf
+Unhandled ghjhg ghgjhrtrty rtyytf er
