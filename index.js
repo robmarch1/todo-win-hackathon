@@ -7,7 +7,7 @@ var States = {
     Visa: "_VisaPaymentState",
     VisaAccNo: "_VisaAccountNumberState",
     VisaSortCode: "_VisaSortCodeState",
-    VisaCVC: "_VisaCVCState"
+    VisaCVC: "_VisaCVCState",
     PayPal: "_PayPalPaymentState",
     Confirmation: "_ConfirmationState",
     Help: "_HelpState"
@@ -17,7 +17,7 @@ var languageString = {
     "en": {
         "translation": {
             "WELCOME_MESSAGE": "Welcome to Auto Insurer. Do you want to insure your device?",
-            "START_UNHANDLED": "Welcome to Auto Insurer. You can ask me to automatically insure any of your connected devices."
+            "START_UNHANDLED": "Welcome to Auto Insurer. You can ask me to automatically insure any of your connected devices.",
             "STOP_MESSAGE": "Are you sure you'd like to stop?",
             "CANCEL_MESSAGE": "Cool, laters bro",
             "QUOTE_MESSAGE": "Ok. I've found a quote for £13.72 per year. Would you like to proceed with this?",
@@ -37,6 +37,7 @@ var Alexa = require('alexa-sdk');
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
     alexa.appId = undefined;
+    alexa.resources = languageString;
     alexa.registerHandlers(
         AutoInsurer.newSessionHandlers(),
         AutoInsurer.startStateHandlers(),
