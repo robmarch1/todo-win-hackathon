@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "VisaPayMethod"
+    },
+    {
+      "intent": "PayPalPayMethod"
+    }
+  ]
+}

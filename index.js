@@ -63,7 +63,6 @@ var AutoInsurer = {
             this.emitWithState("StartRiskCapture");
         },
         "Unhandled": function () {
-            var speechOutput = this.t("START_UNHANDLED");
             this.emit(":tell", this.t("START_UNHANDLED"));
         }
     },
