@@ -5,3 +5,5 @@
 /bin/
 .settings
 node_modules
+npm-debug.log
+**/*.zip
